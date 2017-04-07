@@ -1,0 +1,30 @@
+﻿<GPCodedValueDomain2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/10.3" xsi:type="typens:GPCodedValueDomain2">
+  <DomainName>DEVELOPABILITY</DomainName>
+  <FieldType>esriFieldTypeString</FieldType>
+  <MergePolicy>esriMPTDefaultValue</MergePolicy>
+  <SplitPolicy>esriSPTDefaultValue</SplitPolicy>
+  <Description>Developable status values</Description>
+  <Owner>DATALOADER</Owner>
+  <CodedValues xsi:type="typens:ArrayOfCodedValue">
+    <CodedValue xsi:type="typens:CodedValue">
+      <Name>Developed</Name>
+      <Code xsi:type="xs:string">Developed</Code>
+    </CodedValue>
+    <CodedValue xsi:type="typens:CodedValue">
+      <Name>Indian Communities and BLM</Name>
+      <Code xsi:type="xs:string">Indian Communities and BLM</Code>
+    </CodedValue>
+    <CodedValue xsi:type="typens:CodedValue">
+      <Name>Open Space and Military</Name>
+      <Code xsi:type="xs:string">Open Space and Military</Code>
+    </CodedValue>
+    <CodedValue xsi:type="typens:CodedValue">
+      <Name>Private Developable</Name>
+      <Code xsi:type="xs:string">Private Developable</Code>
+    </CodedValue>
+    <CodedValue xsi:type="typens:CodedValue">
+      <Name>State Trust Developable</Name>
+      <Code xsi:type="xs:string">State Trust Developable</Code>
+    </CodedValue>
+  </CodedValues>
+</GPCodedValueDomain2>
